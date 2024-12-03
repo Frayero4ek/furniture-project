@@ -1,0 +1,325 @@
+@media (max-width: 767px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    *:before,
+    *:after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header__input {
+        display: none;
+    }
+
+    .nav__content {
+        display: none;
+    }
+
+    .header__logo{
+        width: 9px;
+
+    }
+
+    .header__big {
+        padding-top: 32px;
+    }
+
+    .header-big {
+        border-bottom: none;
+    }
+
+    .menu-mobile {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .section_header {
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+    }
+
+    .simple {
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .catalog {
+        font-size: 14px;
+        line-height: 24px;
+        display: block;
+        text-align: center;
+    }
+
+    .section-text {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+
+        &__item {
+            grid-column: 1 / -1;
+            height: 375px;
+            width: 100%;
+
+            &_big {
+                height: 244px;
+                width: 100%;
+            }
+        }
+    }
+
+    .footer {
+        padding-bottom: 33px;
+        margin-top: 33px;
+        height: 393px;
+        width: 100%;
+
+    }
+
+    .footer__change-three {
+        display: block;
+        box-sizing: border-box;
+        padding-left: 28px;
+        margin-top: 16px;
+    }
+
+    .product__element {
+
+        width: 100%;
+    }
+
+    .top {
+        max-width: 767px;
+        height: 725px;
+        background-image: url(img/main-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+
+    }
+
+
+    .mobile-price {
+        display: flex;
+        gap: 32px;
+    }
+
+    .catalog-text {
+        margin-top: 36px;
+    }
+
+    .top__catalog {
+        height: 400px;
+        max-width: inherit;
+        background-image: url(img/mobile-catalog.jpg);
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+
+    }
+
+    .top__cart {
+        height: 400px;
+        max-width: inherit;
+        background-image: url(img/mobile-cart.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+
+    }
+
+    .section_header-catalog {
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+    }
+
+    .catalog__main {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .catalog__midle_one a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+    .link-box_catalog {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .catalog__main-text {
+        text-align: center;
+    }
+
+    .title,
+    .cart__item-name {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+
+    .amount-number-one,
+    .amount-number-two {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .cart__name-box {
+        display: none;
+    }
+
+    .cart__left img {
+        display: none;
+    }
+
+    .cart__content {
+        // min-width: 343px;
+    }
+
+    .cart__button1,
+    .cart__button2 {
+        width: 166px;
+    }
+
+    .cart__button {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .cart__form-button {
+        width: 290px;
+        height: 41px;
+        margin: 0;
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+
+    .select-wrapper {
+        width: 260px;
+    }
+
+    .select__catalog-input {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        border: 1px solid #C4C4C4;
+        border-radius: 20px;
+    }
+
+    .cart__button1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        border-radius: 50px;
+    }
+
+    .cart__form p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+    }
+
+    .cart__form-button {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        background: #F7F6F6;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 367px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .section_header {
+        font-size: 38px;
+    }
+
+    .top {
+        width: 100%;
+    }
+
+    .center {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .upload {
+        font-size: 12px;
+    }
+
+    .cart__input-number1 {
+        width: 31px;
+        height: 51px;
+        left: 837px;
+        top: 523px;
+        background: #F7F6F6;
+        border-radius: 6px;
+        border: none;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 11px;
+    }
+
+    .cart__input-number2 {
+        width: 31px;
+        height: 51px;
+        left: 837px;
+        top: 523px;
+        background: #F7F6F6;
+        border-radius: 6px;
+        border: none;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 11px;
+    }
+
+    .cart__form-button {
+        width: 242px;
+        height: 41px;
+        margin: 0;
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+}
